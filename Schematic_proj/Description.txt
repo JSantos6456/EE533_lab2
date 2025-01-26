@@ -1,0 +1,1 @@
+To use in Xilinx ISE 10.1, extract all the files in each folder, add them as sources, and simulate (and you can implement if you'd like) "ALU_32bit_tb.v".

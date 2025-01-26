@@ -1,0 +1,1093 @@
+VERSION 6
+BEGIN SCHEMATIC
+    BEGIN ATTR DeviceFamilyName "spartan3a"
+        DELETE all:0
+        EDITNAME all:0
+        EDITTRAIT all:0
+    END ATTR
+    BEGIN NETLIST
+        SIGNAL XLXN_5
+        SIGNAL B(31:0)
+        SIGNAL XLXN_44
+        SIGNAL XLXN_91(31:0)
+        SIGNAL A(31:0)
+        SIGNAL A(0)
+        SIGNAL A(1)
+        SIGNAL A(2)
+        SIGNAL A(3)
+        SIGNAL A(4)
+        SIGNAL A(5)
+        SIGNAL A(6)
+        SIGNAL A(7)
+        SIGNAL A(8)
+        SIGNAL A(9)
+        SIGNAL A(10)
+        SIGNAL A(11)
+        SIGNAL A(12)
+        SIGNAL A(13)
+        SIGNAL A(14)
+        SIGNAL A(15)
+        SIGNAL A(16)
+        SIGNAL A(17)
+        SIGNAL A(18)
+        SIGNAL A(19)
+        SIGNAL A(20)
+        SIGNAL A(21)
+        SIGNAL A(22)
+        SIGNAL A(23)
+        SIGNAL A(24)
+        SIGNAL A(25)
+        SIGNAL A(26)
+        SIGNAL A(27)
+        SIGNAL A(28)
+        SIGNAL A(29)
+        SIGNAL A(30)
+        SIGNAL A(31)
+        SIGNAL C(31:0)
+        SIGNAL C(0)
+        SIGNAL C(1)
+        SIGNAL C(2)
+        SIGNAL C(3)
+        SIGNAL C(4)
+        SIGNAL C(5)
+        SIGNAL C(6)
+        SIGNAL C(7)
+        SIGNAL C(15)
+        SIGNAL C(14)
+        SIGNAL C(13)
+        SIGNAL C(12)
+        SIGNAL C(11)
+        SIGNAL C(10)
+        SIGNAL C(9)
+        SIGNAL C(8)
+        SIGNAL C(17)
+        SIGNAL C(18)
+        SIGNAL C(19)
+        SIGNAL C(20)
+        SIGNAL C(21)
+        SIGNAL C(22)
+        SIGNAL C(23)
+        SIGNAL C(31)
+        SIGNAL C(30)
+        SIGNAL C(29)
+        SIGNAL C(28)
+        SIGNAL C(27)
+        SIGNAL C(26)
+        SIGNAL C(25)
+        SIGNAL C(24)
+        SIGNAL Y(31:0)
+        SIGNAL Y(31)
+        SIGNAL Y(30)
+        SIGNAL Y(29)
+        SIGNAL Y(28)
+        SIGNAL Y(27)
+        SIGNAL Y(26)
+        SIGNAL Y(25)
+        SIGNAL Y(24)
+        SIGNAL C(16)
+        SIGNAL XLXN_188
+        SIGNAL Y(16)
+        SIGNAL Y(17)
+        SIGNAL Y(18)
+        SIGNAL Y(19)
+        SIGNAL Y(20)
+        SIGNAL Y(21)
+        SIGNAL Y(22)
+        SIGNAL Y(23)
+        SIGNAL XLXN_197
+        SIGNAL Y(15)
+        SIGNAL Y(14)
+        SIGNAL Y(13)
+        SIGNAL Y(12)
+        SIGNAL Y(11)
+        SIGNAL Y(10)
+        SIGNAL Y(9)
+        SIGNAL Y(8)
+        SIGNAL Y(0)
+        SIGNAL Y(1)
+        SIGNAL Y(2)
+        SIGNAL Y(3)
+        SIGNAL Y(4)
+        SIGNAL Y(5)
+        SIGNAL Y(6)
+        SIGNAL XLXN_220
+        SIGNAL XLXN_221
+        SIGNAL XLXN_223
+        SIGNAL Y(7)
+        SIGNAL sel
+        SIGNAL XLXN_227
+        SIGNAL XLXN_228
+        SIGNAL XLXN_229
+        SIGNAL XLXN_230
+        SIGNAL XLXN_231
+        SIGNAL XLXN_232
+        SIGNAL XLXN_233
+        SIGNAL XLXN_234
+        SIGNAL XLXN_235
+        SIGNAL XLXN_236
+        SIGNAL XLXN_237
+        SIGNAL XLXN_238
+        SIGNAL XLXN_239
+        SIGNAL XLXN_240
+        SIGNAL XLXN_241
+        SIGNAL XLXN_242
+        SIGNAL XLXN_243
+        PORT Input B(31:0)
+        PORT Input A(31:0)
+        PORT Input C(31:0)
+        PORT Output Y(31:0)
+        PORT Input sel
+        BEGIN BLOCKDEF m2_1
+            TIMESTAMP 2000 1 1 10 10 10
+            LINE N 96 -64 96 -192 
+            LINE N 256 -96 96 -64 
+            LINE N 256 -160 256 -96 
+            LINE N 96 -192 256 -160 
+            LINE N 176 -32 96 -32 
+            LINE N 176 -80 176 -32 
+            LINE N 0 -32 96 -32 
+            LINE N 320 -128 256 -128 
+            LINE N 0 -96 96 -96 
+            LINE N 0 -160 96 -160 
+        END BLOCKDEF
+        BEGIN BLOCK XLXI_15 m2_1
+            PIN D0 A(0)
+            PIN D1 C(0)
+            PIN S0 sel
+            PIN O Y(0)
+        END BLOCK
+        BEGIN BLOCK XLXI_16 m2_1
+            PIN D0 A(1)
+            PIN D1 C(1)
+            PIN S0 sel
+            PIN O Y(1)
+        END BLOCK
+        BEGIN BLOCK XLXI_17 m2_1
+            PIN D0 A(2)
+            PIN D1 C(2)
+            PIN S0 sel
+            PIN O Y(2)
+        END BLOCK
+        BEGIN BLOCK XLXI_18 m2_1
+            PIN D0 A(3)
+            PIN D1 C(3)
+            PIN S0 sel
+            PIN O Y(3)
+        END BLOCK
+        BEGIN BLOCK XLXI_19 m2_1
+            PIN D0 A(4)
+            PIN D1 C(4)
+            PIN S0 sel
+            PIN O Y(4)
+        END BLOCK
+        BEGIN BLOCK XLXI_20 m2_1
+            PIN D0 A(5)
+            PIN D1 C(5)
+            PIN S0 sel
+            PIN O Y(5)
+        END BLOCK
+        BEGIN BLOCK XLXI_21 m2_1
+            PIN D0 A(6)
+            PIN D1 C(6)
+            PIN S0 sel
+            PIN O Y(6)
+        END BLOCK
+        BEGIN BLOCK XLXI_22 m2_1
+            PIN D0 A(7)
+            PIN D1 C(7)
+            PIN S0 sel
+            PIN O Y(7)
+        END BLOCK
+        BEGIN BLOCK XLXI_23 m2_1
+            PIN D0 A(15)
+            PIN D1 C(15)
+            PIN S0 sel
+            PIN O Y(15)
+        END BLOCK
+        BEGIN BLOCK XLXI_24 m2_1
+            PIN D0 A(14)
+            PIN D1 C(14)
+            PIN S0 sel
+            PIN O Y(14)
+        END BLOCK
+        BEGIN BLOCK XLXI_25 m2_1
+            PIN D0 A(13)
+            PIN D1 C(13)
+            PIN S0 sel
+            PIN O Y(13)
+        END BLOCK
+        BEGIN BLOCK XLXI_26 m2_1
+            PIN D0 A(12)
+            PIN D1 C(12)
+            PIN S0 sel
+            PIN O Y(12)
+        END BLOCK
+        BEGIN BLOCK XLXI_27 m2_1
+            PIN D0 A(11)
+            PIN D1 C(11)
+            PIN S0 sel
+            PIN O Y(11)
+        END BLOCK
+        BEGIN BLOCK XLXI_28 m2_1
+            PIN D0 A(10)
+            PIN D1 C(10)
+            PIN S0 sel
+            PIN O Y(10)
+        END BLOCK
+        BEGIN BLOCK XLXI_31 m2_1
+            PIN D0 A(16)
+            PIN D1 C(16)
+            PIN S0 sel
+            PIN O Y(16)
+        END BLOCK
+        BEGIN BLOCK XLXI_32 m2_1
+            PIN D0 A(17)
+            PIN D1 C(17)
+            PIN S0 sel
+            PIN O Y(17)
+        END BLOCK
+        BEGIN BLOCK XLXI_33 m2_1
+            PIN D0 A(18)
+            PIN D1 C(18)
+            PIN S0 sel
+            PIN O Y(18)
+        END BLOCK
+        BEGIN BLOCK XLXI_34 m2_1
+            PIN D0 A(19)
+            PIN D1 C(19)
+            PIN S0 sel
+            PIN O Y(19)
+        END BLOCK
+        BEGIN BLOCK XLXI_35 m2_1
+            PIN D0 A(20)
+            PIN D1 C(20)
+            PIN S0 sel
+            PIN O Y(20)
+        END BLOCK
+        BEGIN BLOCK XLXI_36 m2_1
+            PIN D0 A(21)
+            PIN D1 C(21)
+            PIN S0 sel
+            PIN O Y(21)
+        END BLOCK
+        BEGIN BLOCK XLXI_37 m2_1
+            PIN D0 A(22)
+            PIN D1 C(22)
+            PIN S0 sel
+            PIN O Y(22)
+        END BLOCK
+        BEGIN BLOCK XLXI_38 m2_1
+            PIN D0 A(23)
+            PIN D1 C(23)
+            PIN S0 sel
+            PIN O Y(23)
+        END BLOCK
+        BEGIN BLOCK XLXI_39 m2_1
+            PIN D0 A(31)
+            PIN D1 C(31)
+            PIN S0 sel
+            PIN O Y(31)
+        END BLOCK
+        BEGIN BLOCK XLXI_40 m2_1
+            PIN D0 A(30)
+            PIN D1 C(30)
+            PIN S0 sel
+            PIN O Y(30)
+        END BLOCK
+        BEGIN BLOCK XLXI_41 m2_1
+            PIN D0 A(29)
+            PIN D1 C(29)
+            PIN S0 sel
+            PIN O Y(29)
+        END BLOCK
+        BEGIN BLOCK XLXI_42 m2_1
+            PIN D0 A(28)
+            PIN D1 C(28)
+            PIN S0 sel
+            PIN O Y(28)
+        END BLOCK
+        BEGIN BLOCK XLXI_43 m2_1
+            PIN D0 A(27)
+            PIN D1 C(27)
+            PIN S0 sel
+            PIN O Y(27)
+        END BLOCK
+        BEGIN BLOCK XLXI_44 m2_1
+            PIN D0 A(26)
+            PIN D1 C(26)
+            PIN S0 sel
+            PIN O Y(26)
+        END BLOCK
+        BEGIN BLOCK XLXI_45 m2_1
+            PIN D0 A(25)
+            PIN D1 C(25)
+            PIN S0 sel
+            PIN O Y(25)
+        END BLOCK
+        BEGIN BLOCK XLXI_46 m2_1
+            PIN D0 A(24)
+            PIN D1 C(24)
+            PIN S0 sel
+            PIN O Y(24)
+        END BLOCK
+        BEGIN BLOCK XLXI_29 m2_1
+            PIN D0 A(9)
+            PIN D1 C(9)
+            PIN S0 sel
+            PIN O Y(9)
+        END BLOCK
+        BEGIN BLOCK XLXI_30 m2_1
+            PIN D0 A(8)
+            PIN D1 C(8)
+            PIN S0 sel
+            PIN O Y(8)
+        END BLOCK
+    END NETLIST
+    BEGIN SHEET 1 3520 2720
+        INSTANCE XLXI_15 784 256 R0
+        INSTANCE XLXI_16 784 512 R0
+        INSTANCE XLXI_17 784 768 R0
+        INSTANCE XLXI_18 784 1024 R0
+        INSTANCE XLXI_19 784 1280 R0
+        INSTANCE XLXI_20 768 1520 R0
+        INSTANCE XLXI_21 768 1776 R0
+        INSTANCE XLXI_23 1424 272 R0
+        INSTANCE XLXI_24 1424 528 R0
+        INSTANCE XLXI_25 1424 784 R0
+        INSTANCE XLXI_26 1424 1040 R0
+        INSTANCE XLXI_27 1424 1296 R0
+        INSTANCE XLXI_32 2080 560 R0
+        INSTANCE XLXI_33 2080 816 R0
+        INSTANCE XLXI_34 2080 1072 R0
+        INSTANCE XLXI_35 2080 1328 R0
+        INSTANCE XLXI_36 2064 1568 R0
+        INSTANCE XLXI_37 2064 1824 R0
+        INSTANCE XLXI_38 2064 2096 R0
+        INSTANCE XLXI_39 2800 304 R0
+        INSTANCE XLXI_40 2800 560 R0
+        INSTANCE XLXI_41 2800 816 R0
+        INSTANCE XLXI_42 2800 1072 R0
+        INSTANCE XLXI_43 2800 1328 R0
+        INSTANCE XLXI_44 2784 1568 R0
+        INSTANCE XLXI_45 2784 1824 R0
+        INSTANCE XLXI_46 2784 2096 R0
+        IOMARKER 224 96 A(31:0) R180 28
+        BUSTAP 656 96 752 96
+        BUSTAP 656 352 752 352
+        BUSTAP 656 608 752 608
+        BUSTAP 656 864 752 864
+        BUSTAP 656 1120 752 1120
+        BUSTAP 656 1360 752 1360
+        BUSTAP 656 1616 752 1616
+        BUSTAP 656 1888 752 1888
+        BUSTAP 1952 144 2048 144
+        BUSTAP 1952 400 2048 400
+        BUSTAP 1952 656 2048 656
+        BUSTAP 1952 912 2048 912
+        BUSTAP 1952 1168 2048 1168
+        BUSTAP 1952 1408 2048 1408
+        BUSTAP 1952 1664 2048 1664
+        BUSTAP 1952 1936 2048 1936
+        BUSTAP 2672 144 2768 144
+        BUSTAP 2672 400 2768 400
+        BUSTAP 2672 656 2768 656
+        BUSTAP 2672 912 2768 912
+        BUSTAP 2672 1168 2768 1168
+        BUSTAP 2672 1408 2768 1408
+        BUSTAP 2672 1664 2768 1664
+        BUSTAP 2672 1936 2768 1936
+        BUSTAP 1312 112 1408 112
+        BUSTAP 1312 368 1408 368
+        BUSTAP 1312 624 1408 624
+        BUSTAP 1312 880 1408 880
+        BUSTAP 1312 1136 1408 1136
+        INSTANCE XLXI_28 1424 1536 R0
+        INSTANCE XLXI_29 1424 1792 R0
+        INSTANCE XLXI_30 1424 2064 R0
+        BUSTAP 1312 1376 1408 1376
+        BUSTAP 1312 1632 1408 1632
+        BUSTAP 1312 1904 1408 1904
+        BEGIN BRANCH A(0)
+            WIRE 752 96 784 96
+        END BRANCH
+        BEGIN BRANCH A(1)
+            WIRE 752 352 784 352
+        END BRANCH
+        BEGIN BRANCH A(2)
+            WIRE 752 608 784 608
+        END BRANCH
+        BEGIN BRANCH A(3)
+            WIRE 752 864 784 864
+        END BRANCH
+        BEGIN BRANCH A(4)
+            WIRE 752 1120 784 1120
+        END BRANCH
+        BEGIN BRANCH A(5)
+            WIRE 752 1360 768 1360
+        END BRANCH
+        BEGIN BRANCH A(6)
+            WIRE 752 1616 768 1616
+        END BRANCH
+        BEGIN BRANCH A(7)
+            WIRE 608 1792 608 1920
+            WIRE 608 1920 752 1920
+            WIRE 608 1792 768 1792
+            WIRE 768 1792 768 1888
+            WIRE 752 1888 768 1888
+        END BRANCH
+        BEGIN BRANCH A(8)
+            WIRE 1408 1904 1424 1904
+        END BRANCH
+        BEGIN BRANCH A(9)
+            WIRE 1408 1632 1424 1632
+        END BRANCH
+        BEGIN BRANCH A(10)
+            WIRE 1408 1376 1424 1376
+        END BRANCH
+        BEGIN BRANCH A(11)
+            WIRE 1408 1136 1424 1136
+        END BRANCH
+        BEGIN BRANCH A(12)
+            WIRE 1408 880 1424 880
+        END BRANCH
+        BEGIN BRANCH A(13)
+            WIRE 1408 624 1424 624
+        END BRANCH
+        BEGIN BRANCH A(14)
+            WIRE 1408 368 1424 368
+        END BRANCH
+        BEGIN BRANCH A(15)
+            WIRE 1408 112 1424 112
+        END BRANCH
+        BEGIN BRANCH A(17)
+            WIRE 2048 400 2080 400
+        END BRANCH
+        BEGIN BRANCH A(18)
+            WIRE 2048 656 2080 656
+        END BRANCH
+        BEGIN BRANCH A(19)
+            WIRE 2048 912 2080 912
+        END BRANCH
+        BEGIN BRANCH A(20)
+            WIRE 2048 1168 2080 1168
+        END BRANCH
+        BEGIN BRANCH A(21)
+            WIRE 2048 1408 2064 1408
+        END BRANCH
+        BEGIN BRANCH A(22)
+            WIRE 2048 1664 2064 1664
+        END BRANCH
+        BEGIN BRANCH A(23)
+            WIRE 2048 1936 2064 1936
+        END BRANCH
+        BEGIN BRANCH A(24)
+            WIRE 2768 1936 2784 1936
+        END BRANCH
+        BEGIN BRANCH A(25)
+            WIRE 2768 1664 2784 1664
+        END BRANCH
+        BEGIN BRANCH A(26)
+            WIRE 2768 1408 2784 1408
+        END BRANCH
+        BEGIN BRANCH A(27)
+            WIRE 2768 1168 2800 1168
+        END BRANCH
+        BEGIN BRANCH A(28)
+            WIRE 2768 912 2800 912
+        END BRANCH
+        BEGIN BRANCH A(29)
+            WIRE 2768 656 2800 656
+        END BRANCH
+        BEGIN BRANCH A(30)
+            WIRE 2768 400 2800 400
+        END BRANCH
+        BEGIN BRANCH A(31)
+            WIRE 2768 144 2800 144
+        END BRANCH
+        BEGIN BRANCH C(31:0)
+            WIRE 224 192 384 192
+            WIRE 384 192 384 208
+            WIRE 384 208 384 416
+            WIRE 384 416 384 672
+            WIRE 384 672 384 928
+            WIRE 384 928 384 1184
+            WIRE 384 1184 384 1424
+            WIRE 384 1424 384 1680
+            WIRE 384 1680 384 1952
+            WIRE 384 1952 384 2416
+            WIRE 384 2416 1184 2416
+            WIRE 1184 2416 1840 2416
+            WIRE 1840 2416 2528 2416
+            WIRE 1184 64 1184 176
+            WIRE 1184 176 1184 384
+            WIRE 1184 384 1184 640
+            WIRE 1184 640 1184 896
+            WIRE 1184 896 1184 1152
+            WIRE 1184 1152 1184 1392
+            WIRE 1184 1392 1184 1648
+            WIRE 1184 1648 1184 1920
+            WIRE 1184 1920 1184 2416
+            WIRE 1840 48 1840 224
+            WIRE 1840 224 1840 464
+            WIRE 1840 464 1840 720
+            WIRE 1840 720 1840 976
+            WIRE 1840 976 1840 1232
+            WIRE 1840 1232 1840 1472
+            WIRE 1840 1472 1840 1728
+            WIRE 1840 1728 1840 2000
+            WIRE 1840 2000 1840 2416
+            WIRE 2528 32 2528 256
+            WIRE 2528 256 2528 464
+            WIRE 2528 464 2528 720
+            WIRE 2528 720 2528 976
+            WIRE 2528 976 2528 1232
+            WIRE 2528 1232 2528 1472
+            WIRE 2528 1472 2528 1728
+            WIRE 2528 1728 2528 2000
+            WIRE 2528 2000 2528 2416
+        END BRANCH
+        IOMARKER 224 192 C(31:0) R180 28
+        BUSTAP 384 208 480 208
+        BUSTAP 384 416 480 416
+        BUSTAP 384 672 480 672
+        BUSTAP 384 928 480 928
+        BUSTAP 384 1184 480 1184
+        BUSTAP 384 1424 480 1424
+        BUSTAP 384 1680 480 1680
+        BUSTAP 384 1952 480 1952
+        BUSTAP 1184 176 1280 176
+        BUSTAP 1184 384 1280 384
+        BUSTAP 1184 640 1280 640
+        BUSTAP 1184 896 1280 896
+        BUSTAP 1184 1152 1280 1152
+        BUSTAP 1184 1392 1280 1392
+        BUSTAP 1184 1648 1280 1648
+        BUSTAP 1184 1920 1280 1920
+        BEGIN BRANCH C(0)
+            WIRE 480 208 624 208
+            WIRE 624 160 624 208
+            WIRE 624 160 784 160
+        END BRANCH
+        BEGIN BRANCH C(1)
+            WIRE 480 416 784 416
+        END BRANCH
+        BEGIN BRANCH C(2)
+            WIRE 480 672 784 672
+        END BRANCH
+        BEGIN BRANCH C(3)
+            WIRE 480 928 784 928
+        END BRANCH
+        BEGIN BRANCH C(4)
+            WIRE 480 1184 784 1184
+        END BRANCH
+        BEGIN BRANCH C(5)
+            WIRE 480 1424 768 1424
+        END BRANCH
+        BEGIN BRANCH C(6)
+            WIRE 480 1680 768 1680
+        END BRANCH
+        BEGIN BRANCH C(7)
+            WIRE 480 1952 496 1952
+            WIRE 496 1952 496 1984
+            WIRE 496 1984 752 1984
+        END BRANCH
+        BEGIN BRANCH C(15)
+            WIRE 1280 176 1424 176
+        END BRANCH
+        BEGIN BRANCH C(14)
+            WIRE 1280 384 1296 384
+            WIRE 1296 384 1296 432
+            WIRE 1296 432 1424 432
+        END BRANCH
+        BEGIN BRANCH C(13)
+            WIRE 1280 640 1296 640
+            WIRE 1296 640 1296 688
+            WIRE 1296 688 1424 688
+        END BRANCH
+        BEGIN BRANCH C(12)
+            WIRE 1280 896 1296 896
+            WIRE 1296 896 1296 944
+            WIRE 1296 944 1424 944
+        END BRANCH
+        BEGIN BRANCH C(11)
+            WIRE 1280 1152 1296 1152
+            WIRE 1296 1152 1296 1200
+            WIRE 1296 1200 1424 1200
+        END BRANCH
+        BEGIN BRANCH C(10)
+            WIRE 1280 1392 1296 1392
+            WIRE 1296 1392 1296 1440
+            WIRE 1296 1440 1424 1440
+        END BRANCH
+        BEGIN BRANCH C(9)
+            WIRE 1280 1648 1296 1648
+            WIRE 1296 1648 1296 1696
+            WIRE 1296 1696 1424 1696
+        END BRANCH
+        BEGIN BRANCH C(8)
+            WIRE 1280 1920 1296 1920
+            WIRE 1296 1920 1296 1968
+            WIRE 1296 1968 1424 1968
+        END BRANCH
+        BUSTAP 1840 464 1936 464
+        BUSTAP 1840 720 1936 720
+        BUSTAP 1840 976 1936 976
+        BUSTAP 1840 1232 1936 1232
+        BUSTAP 1840 1472 1936 1472
+        BUSTAP 1840 1728 1936 1728
+        BUSTAP 1840 2000 1936 2000
+        BEGIN BRANCH C(17)
+            WIRE 1936 464 2080 464
+        END BRANCH
+        BEGIN BRANCH C(18)
+            WIRE 1936 720 2080 720
+        END BRANCH
+        BEGIN BRANCH C(19)
+            WIRE 1936 976 2080 976
+        END BRANCH
+        BEGIN BRANCH C(20)
+            WIRE 1936 1232 2080 1232
+        END BRANCH
+        BEGIN BRANCH C(21)
+            WIRE 1936 1472 2064 1472
+        END BRANCH
+        BEGIN BRANCH C(22)
+            WIRE 1936 1728 2064 1728
+        END BRANCH
+        BEGIN BRANCH C(23)
+            WIRE 1936 2000 2064 2000
+        END BRANCH
+        BUSTAP 2528 256 2624 256
+        BUSTAP 2528 464 2624 464
+        BUSTAP 2528 720 2624 720
+        BUSTAP 2528 976 2624 976
+        BUSTAP 2528 1232 2624 1232
+        BUSTAP 2528 1472 2624 1472
+        BUSTAP 2528 1728 2624 1728
+        BUSTAP 2528 2000 2624 2000
+        BEGIN BRANCH C(31)
+            WIRE 2624 256 2704 256
+            WIRE 2704 208 2704 256
+            WIRE 2704 208 2800 208
+        END BRANCH
+        BEGIN BRANCH C(30)
+            WIRE 2624 464 2800 464
+        END BRANCH
+        BEGIN BRANCH C(29)
+            WIRE 2624 720 2800 720
+        END BRANCH
+        BEGIN BRANCH C(28)
+            WIRE 2624 976 2800 976
+        END BRANCH
+        BEGIN BRANCH C(27)
+            WIRE 2624 1232 2800 1232
+        END BRANCH
+        BEGIN BRANCH C(26)
+            WIRE 2624 1472 2784 1472
+        END BRANCH
+        BEGIN BRANCH C(25)
+            WIRE 2624 1728 2784 1728
+        END BRANCH
+        BEGIN BRANCH C(24)
+            WIRE 2624 2000 2784 2000
+        END BRANCH
+        IOMARKER 3376 2384 Y(31:0) R0 28
+        BUSTAP 3264 176 3168 176
+        BUSTAP 3264 432 3168 432
+        BUSTAP 3264 688 3168 688
+        BUSTAP 3264 944 3168 944
+        BUSTAP 3264 1200 3168 1200
+        BUSTAP 3264 1440 3168 1440
+        BUSTAP 3264 1696 3168 1696
+        BUSTAP 3264 1968 3168 1968
+        BEGIN BRANCH Y(31)
+            WIRE 3120 176 3168 176
+        END BRANCH
+        BEGIN BRANCH Y(30)
+            WIRE 3120 432 3168 432
+        END BRANCH
+        BEGIN BRANCH Y(29)
+            WIRE 3120 688 3168 688
+        END BRANCH
+        BEGIN BRANCH Y(28)
+            WIRE 3120 944 3168 944
+        END BRANCH
+        BEGIN BRANCH Y(27)
+            WIRE 3120 1200 3168 1200
+        END BRANCH
+        BEGIN BRANCH Y(26)
+            WIRE 3104 1440 3168 1440
+        END BRANCH
+        BEGIN BRANCH Y(25)
+            WIRE 3104 1696 3168 1696
+        END BRANCH
+        BEGIN BRANCH Y(24)
+            WIRE 3104 1968 3168 1968
+        END BRANCH
+        BEGIN BRANCH A(16)
+            WIRE 2048 144 2080 144
+        END BRANCH
+        INSTANCE XLXI_31 2080 304 R0
+        BEGIN BRANCH A(31:0)
+            WIRE 224 96 656 96
+            WIRE 656 96 656 352
+            WIRE 656 352 656 608
+            WIRE 656 608 656 864
+            WIRE 656 864 656 1120
+            WIRE 656 1120 656 1360
+            WIRE 656 1360 656 1616
+            WIRE 656 1616 656 1888
+            WIRE 656 1888 656 2224
+            WIRE 656 2224 1312 2224
+            WIRE 1312 2224 1952 2224
+            WIRE 1952 2224 2672 2224
+            WIRE 1312 80 1312 112
+            WIRE 1312 112 1312 368
+            WIRE 1312 368 1312 624
+            WIRE 1312 624 1312 880
+            WIRE 1312 880 1312 1136
+            WIRE 1312 1136 1312 1376
+            WIRE 1312 1376 1312 1632
+            WIRE 1312 1632 1312 1904
+            WIRE 1312 1904 1312 2224
+            WIRE 1952 48 1952 144
+            WIRE 1952 144 1952 400
+            WIRE 1952 400 1952 656
+            WIRE 1952 656 1952 912
+            WIRE 1952 912 1952 1168
+            WIRE 1952 1168 1952 1408
+            WIRE 1952 1408 1952 1664
+            WIRE 1952 1664 1952 1936
+            WIRE 1952 1936 1952 2224
+            WIRE 2672 48 2672 144
+            WIRE 2672 144 2672 400
+            WIRE 2672 400 2672 656
+            WIRE 2672 656 2672 912
+            WIRE 2672 912 2672 1168
+            WIRE 2672 1168 2672 1408
+            WIRE 2672 1408 2672 1664
+            WIRE 2672 1664 2672 1936
+            WIRE 2672 1936 2672 2224
+        END BRANCH
+        BUSTAP 1840 224 1936 224
+        BEGIN BRANCH C(16)
+            WIRE 1936 224 2000 224
+            WIRE 2000 208 2000 224
+            WIRE 2000 208 2080 208
+        END BRANCH
+        BUSTAP 2592 64 2496 64
+        BUSTAP 2592 320 2496 320
+        BUSTAP 2592 560 2496 560
+        BUSTAP 2592 832 2496 832
+        BUSTAP 2592 1088 2496 1088
+        BUSTAP 2592 1344 2496 1344
+        BUSTAP 2592 1584 2496 1584
+        BUSTAP 2592 1840 2496 1840
+        BEGIN BRANCH Y(16)
+            WIRE 2400 176 2448 176
+            WIRE 2448 64 2448 176
+            WIRE 2448 64 2496 64
+        END BRANCH
+        BEGIN BRANCH Y(17)
+            WIRE 2400 432 2448 432
+            WIRE 2448 320 2448 432
+            WIRE 2448 320 2496 320
+        END BRANCH
+        BEGIN BRANCH Y(18)
+            WIRE 2400 688 2448 688
+            WIRE 2448 560 2448 688
+            WIRE 2448 560 2496 560
+        END BRANCH
+        BEGIN BRANCH Y(19)
+            WIRE 2400 944 2448 944
+            WIRE 2448 832 2448 944
+            WIRE 2448 832 2496 832
+        END BRANCH
+        BEGIN BRANCH Y(20)
+            WIRE 2400 1200 2448 1200
+            WIRE 2448 1088 2448 1200
+            WIRE 2448 1088 2496 1088
+        END BRANCH
+        BEGIN BRANCH Y(21)
+            WIRE 2384 1440 2432 1440
+            WIRE 2432 1344 2432 1440
+            WIRE 2432 1344 2496 1344
+        END BRANCH
+        BEGIN BRANCH Y(22)
+            WIRE 2384 1696 2432 1696
+            WIRE 2432 1584 2432 1696
+            WIRE 2432 1584 2496 1584
+        END BRANCH
+        BEGIN BRANCH Y(23)
+            WIRE 2384 1968 2432 1968
+            WIRE 2432 1840 2432 1968
+            WIRE 2432 1840 2496 1840
+        END BRANCH
+        BEGIN BRANCH Y(31:0)
+            WIRE 240 2576 880 2576
+            WIRE 880 2576 960 2576
+            WIRE 960 2576 1040 2576
+            WIRE 1040 2576 1136 2576
+            WIRE 1136 2576 1232 2576
+            WIRE 1232 2576 1328 2576
+            WIRE 1328 2576 1424 2576
+            WIRE 1424 2576 1520 2576
+            WIRE 1520 2576 1616 2576
+            WIRE 1616 2576 1776 2576
+            WIRE 1776 2576 1872 2576
+            WIRE 1872 2576 1968 2576
+            WIRE 1968 2576 2064 2576
+            WIRE 2064 2576 2160 2576
+            WIRE 2160 2576 2256 2576
+            WIRE 2256 2576 2352 2576
+            WIRE 2352 2576 2448 2576
+            WIRE 2448 2576 2592 2576
+            WIRE 2592 16 2592 64
+            WIRE 2592 64 2592 320
+            WIRE 2592 320 2592 560
+            WIRE 2592 560 2592 832
+            WIRE 2592 832 2592 1088
+            WIRE 2592 1088 2592 1344
+            WIRE 2592 1344 2592 1584
+            WIRE 2592 1584 2592 1840
+            WIRE 2592 1840 2592 2384
+            WIRE 2592 2384 3264 2384
+            WIRE 3264 2384 3376 2384
+            WIRE 2592 2384 2592 2576
+            WIRE 3264 80 3264 176
+            WIRE 3264 176 3264 432
+            WIRE 3264 432 3264 688
+            WIRE 3264 688 3264 944
+            WIRE 3264 944 3264 1200
+            WIRE 3264 1200 3264 1440
+            WIRE 3264 1440 3264 1696
+            WIRE 3264 1696 3264 1968
+            WIRE 3264 1968 3264 2384
+        END BRANCH
+        BUSTAP 2448 2576 2448 2480
+        BUSTAP 2352 2576 2352 2480
+        BUSTAP 2256 2576 2256 2480
+        BUSTAP 2160 2576 2160 2480
+        BUSTAP 2064 2576 2064 2480
+        BUSTAP 1968 2576 1968 2480
+        BUSTAP 1872 2576 1872 2480
+        BUSTAP 1776 2576 1776 2480
+        BEGIN BRANCH Y(15)
+            WIRE 1744 144 1824 144
+            WIRE 1824 144 1824 1312
+            WIRE 1824 1312 2448 1312
+            WIRE 2448 1312 2448 2480
+        END BRANCH
+        BEGIN BRANCH Y(14)
+            WIRE 1744 400 1808 400
+            WIRE 1808 400 1808 2128
+            WIRE 1808 2128 2352 2128
+            WIRE 2352 2128 2352 2480
+        END BRANCH
+        BEGIN BRANCH Y(13)
+            WIRE 1744 656 1792 656
+            WIRE 1792 656 1792 2112
+            WIRE 1792 2112 2256 2112
+            WIRE 2256 2112 2256 2480
+        END BRANCH
+        BEGIN BRANCH Y(12)
+            WIRE 1744 912 1776 912
+            WIRE 1776 912 1776 2080
+            WIRE 1776 2080 2160 2080
+            WIRE 2160 2080 2160 2480
+        END BRANCH
+        BEGIN BRANCH Y(11)
+            WIRE 1744 1168 1760 1168
+            WIRE 1760 1072 1760 1168
+            WIRE 1760 1072 2464 1072
+            WIRE 2464 1072 2464 2096
+            WIRE 2064 2096 2464 2096
+            WIRE 2064 2096 2064 2480
+        END BRANCH
+        BEGIN BRANCH Y(10)
+            WIRE 1744 1408 1760 1408
+            WIRE 1760 1408 1760 1968
+            WIRE 1760 1968 1968 1968
+            WIRE 1968 1968 1968 2480
+        END BRANCH
+        BEGIN BRANCH Y(9)
+            WIRE 1744 1664 1824 1664
+            WIRE 1824 1664 1824 2064
+            WIRE 1824 2064 1872 2064
+            WIRE 1872 2064 1872 2480
+        END BRANCH
+        BEGIN BRANCH Y(8)
+            WIRE 1744 1936 1856 1936
+            WIRE 1776 2192 2416 2192
+            WIRE 1776 2192 1776 2480
+            WIRE 1856 1840 1856 1936
+            WIRE 1856 1840 2416 1840
+            WIRE 2416 1840 2416 2192
+        END BRANCH
+        BUSTAP 1616 2576 1616 2480
+        BUSTAP 1520 2576 1520 2480
+        BUSTAP 1424 2576 1424 2480
+        BUSTAP 1328 2576 1328 2480
+        BUSTAP 1232 2576 1232 2480
+        BUSTAP 1136 2576 1136 2480
+        BUSTAP 1040 2576 1040 2480
+        BEGIN BRANCH Y(0)
+            WIRE 1104 128 1168 128
+            WIRE 1168 128 1168 2096
+            WIRE 1168 2096 1616 2096
+            WIRE 1616 2096 1616 2480
+        END BRANCH
+        BEGIN BRANCH Y(1)
+            WIRE 1104 384 1152 384
+            WIRE 1152 384 1152 2048
+            WIRE 1152 2048 1520 2048
+            WIRE 1520 2048 1520 2480
+        END BRANCH
+        BEGIN BRANCH Y(2)
+            WIRE 1104 640 1136 640
+            WIRE 1136 640 1136 2128
+            WIRE 1136 2128 1424 2128
+            WIRE 1424 2128 1424 2480
+        END BRANCH
+        BEGIN BRANCH Y(3)
+            WIRE 576 768 1120 768
+            WIRE 1120 768 1120 896
+            WIRE 576 768 576 2080
+            WIRE 576 2080 1328 2080
+            WIRE 1328 2080 1328 2480
+            WIRE 1104 896 1120 896
+        END BRANCH
+        BEGIN BRANCH Y(4)
+            WIRE 1104 1152 1120 1152
+            WIRE 1120 1152 1120 2000
+            WIRE 1120 2000 1232 2000
+            WIRE 1232 2000 1232 2480
+        END BRANCH
+        BEGIN BRANCH Y(5)
+            WIRE 592 1552 1104 1552
+            WIRE 592 1552 592 2176
+            WIRE 592 2176 1136 2176
+            WIRE 1136 2176 1136 2480
+            WIRE 1088 1392 1104 1392
+            WIRE 1104 1392 1104 1552
+        END BRANCH
+        BEGIN BRANCH Y(6)
+            WIRE 1040 2400 1040 2480
+            WIRE 1040 2400 1104 2400
+            WIRE 1088 1648 1104 1648
+            WIRE 1104 1648 1104 2400
+        END BRANCH
+        INSTANCE XLXI_22 752 2080 R0
+        BUSTAP 960 2576 960 2480
+        BEGIN BRANCH Y(7)
+            WIRE 960 2464 960 2480
+            WIRE 960 2464 1088 2464
+            WIRE 1072 1952 1088 1952
+            WIRE 1088 1952 1088 2464
+        END BRANCH
+        BEGIN BRANCH sel
+            WIRE 128 368 288 368
+            WIRE 288 368 528 368
+            WIRE 288 368 288 480
+            WIRE 288 480 784 480
+            WIRE 288 480 288 736
+            WIRE 288 736 784 736
+            WIRE 288 736 288 992
+            WIRE 288 992 784 992
+            WIRE 288 992 288 1248
+            WIRE 288 1248 784 1248
+            WIRE 288 1248 288 1488
+            WIRE 288 1488 768 1488
+            WIRE 288 1488 288 1744
+            WIRE 288 1744 768 1744
+            WIRE 288 1744 288 2048
+            WIRE 288 2048 752 2048
+            WIRE 288 2048 288 2112
+            WIRE 288 2112 1120 2112
+            WIRE 288 16 288 368
+            WIRE 288 16 1248 16
+            WIRE 1248 16 1248 32
+            WIRE 1248 16 1760 16
+            WIRE 1760 16 1760 272
+            WIRE 1760 272 2080 272
+            WIRE 1760 272 1760 528
+            WIRE 1760 528 2080 528
+            WIRE 1760 528 1760 784
+            WIRE 1760 784 2080 784
+            WIRE 1760 784 1760 1040
+            WIRE 1760 1040 2080 1040
+            WIRE 528 224 528 368
+            WIRE 528 224 784 224
+            WIRE 544 1024 1744 1024
+            WIRE 1744 1024 1744 1040
+            WIRE 1744 1040 1760 1040
+            WIRE 544 1024 544 1536
+            WIRE 544 1536 1904 1536
+            WIRE 1904 1536 2064 1536
+            WIRE 1904 1536 1904 1696
+            WIRE 1904 1696 2016 1696
+            WIRE 2016 1696 2016 1792
+            WIRE 2016 1792 2064 1792
+            WIRE 624 1264 768 1264
+            WIRE 768 1264 1424 1264
+            WIRE 624 1264 624 1504
+            WIRE 624 1504 1424 1504
+            WIRE 624 1504 624 1760
+            WIRE 624 1760 1424 1760
+            WIRE 640 1040 640 1296
+            WIRE 640 1296 2080 1296
+            WIRE 640 1040 1744 1040
+            WIRE 768 752 1120 752
+            WIRE 1120 752 1424 752
+            WIRE 768 752 768 1008
+            WIRE 768 1008 1424 1008
+            WIRE 768 1008 768 1264
+            WIRE 1120 32 1248 32
+            WIRE 1120 32 1120 240
+            WIRE 1120 240 1424 240
+            WIRE 1120 240 1120 496
+            WIRE 1120 496 1424 496
+            WIRE 1120 496 1120 752
+            WIRE 1120 2032 1120 2112
+            WIRE 1120 2032 1424 2032
+            WIRE 1888 1568 1888 1696
+            WIRE 1888 1696 1904 1696
+            WIRE 1888 1568 2400 1568
+            WIRE 2400 1568 2400 2176
+            WIRE 2400 2176 2752 2176
+            WIRE 2752 2176 2784 2176
+            WIRE 2784 2176 3200 2176
+            WIRE 3200 2176 3280 2176
+            WIRE 2000 2064 2000 2176
+            WIRE 2000 2176 2400 2176
+            WIRE 2000 2064 2064 2064
+            WIRE 2768 48 2768 64
+            WIRE 2768 64 2784 64
+            WIRE 2784 64 2784 272
+            WIRE 2784 272 2800 272
+            WIRE 2768 48 3184 48
+            WIRE 3184 48 3280 48
+            WIRE 3280 48 3280 560
+            WIRE 3280 560 3280 832
+            WIRE 3280 832 3280 1072
+            WIRE 3280 1072 3280 1360
+            WIRE 3280 1360 3280 1584
+            WIRE 3280 1584 3280 1840
+            WIRE 3280 1840 3280 2176
+            WIRE 2784 1536 2784 1584
+            WIRE 2784 1584 3280 1584
+            WIRE 2784 1792 2784 1840
+            WIRE 2784 1840 3280 1840
+            WIRE 2784 2064 2784 2176
+            WIRE 2800 528 2800 560
+            WIRE 2800 560 3280 560
+            WIRE 2800 784 2800 832
+            WIRE 2800 832 3280 832
+            WIRE 2800 1040 2800 1072
+            WIRE 2800 1072 3280 1072
+            WIRE 2800 1296 2800 1360
+            WIRE 2800 1360 3280 1360
+        END BRANCH
+        IOMARKER 128 368 sel R180 28
+    END SHEET
+END SCHEMATIC
